@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/* Design tokens                                                       */
+/* Colours are expressed as space-separated RGB channels so Tailwind   */
+/* can apply opacity modifiers (e.g. text-charcoal/70).                */
+/* ------------------------------------------------------------------ */
+@layer base {
+  :root {
+    --color-ivory: 251 250 246; /* page background — warm off-white */
+    --color-surface: 255 255 255; /* cards / raised surfaces */
+    --color-charcoal: 26 26 28; /* primary text */
+    --color-ink: 38 38 42; /* secondary headings */
+    --color-muted: 110 108 102; /* muted body text */
+    --color-line: 226 223 214; /* hairline dividers / borders */
+    --color-gold: 140 110 64; /* muted bronze accent — AA on ivory (~4.6:1) */
+    --color-gold-soft: 188 162 122; /* lighter accent for dark mode */
+  }
+
+  .dark {
+    --color-ivory: 17 17 19;
+    --color-surface: 24 24 27;
+    --color-charcoal: 237 235 229;
+    --color-ink: 214 212 206;
+    --color-muted: 156 153 145;
+    --color-line: 48 47 50;
+    --color-gold: 188 162 122;
+    --color-gold-soft: 154 123 79;
+  }
+
+  * {
+    @apply border-line;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-ivory text-charcoal font-sans antialiased;
+    font-feature-settings: "kern", "liga", "calt";
+  }
+
+  /* Consistent, accessible focus ring across interactive elements. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-gold ring-offset-2 ring-offset-ivory;
+  }
+
+  ::selection {
+    @apply bg-gold/20 text-charcoal;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-ink;
+    text-wrap: balance;
+  }
+
+  /* Respect users who prefer reduced motion. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Constrained, gutter-aware content column used across sections. */
+  .container-page {
+    @apply mx-auto w-full max-w-content px-6 sm:px-8 lg:px-12;
+  }
+
+  /* Small uppercase eyebrow label used above section headings. */
+  .eyebrow {
+    @apply text-xs font-medium uppercase tracking-widest text-gold;
+  }
+
+  /* Understated link underline animation. */
+  .link-underline {
+    @apply relative inline-flex items-center gap-1.5 transition-colors duration-300;
+  }
+}
