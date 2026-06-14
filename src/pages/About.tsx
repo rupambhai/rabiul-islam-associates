@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Seo } from "@/components/Seo";
 import { Container } from "@/components/ui/Container";
-import { PortraitPlaceholder } from "@/components/PortraitPlaceholder";
+import { Portrait } from "@/components/Portrait";
 import { CtaSection } from "@/sections/CtaSection";
 import { about } from "@/data/chamber";
 import { site } from "@/data/site";
@@ -46,7 +46,7 @@ export default function About() {
             viewport={{ once: true, margin: "-80px" }}
             className="max-w-sm lg:sticky lg:top-28 lg:max-w-none lg:self-start"
           >
-            <PortraitPlaceholder />
+            <Portrait priority />
             <p className="mt-4 font-display text-lg text-ink">{site.advocate}</p>
             <p className="text-sm text-muted">{site.tagline}</p>
           </motion.div>

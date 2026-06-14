@@ -24,9 +24,9 @@ export const about = {
   mission:
     "To provide principled, intelligent legal representation that clients can trust with their most significant matters — delivered with discretion, precision and care.",
   credentials: [
-    { label: "Advocate, Supreme Court of Bangladesh", value: "Enrolled [Year]" },
-    { label: "Bangladesh Bar Council", value: "Enrolment No. [BC-XXXX]" },
-    { label: "Bar Association Membership", value: "Supreme Court Bar Association" },
+    { label: "Bangladesh Bar Council", value: "Enrolment No. 21478 · 14 May 2016" },
+    { label: "Dhaka Bar Association", value: "Membership No. 20520" },
+    { label: "Supreme Court of Bangladesh", value: "Membership No. 11089" },
   ],
   stats: [
     { value: "[10]+", label: "Years of legal study & practice" },

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { Container } from "@/components/ui/Container";
-import { PortraitPlaceholder } from "@/components/PortraitPlaceholder";
+import { Portrait } from "@/components/Portrait";
 import { about } from "@/data/chamber";
 import { fadeUp, staggerContainer } from "@/utils/motion";
 
@@ -19,7 +19,7 @@ export function AboutPreview() {
           viewport={{ once: true, margin: "-80px" }}
           className="max-w-sm lg:max-w-none"
         >
-          <PortraitPlaceholder />
+          <Portrait />
         </motion.div>
 
         {/* Copy */}
