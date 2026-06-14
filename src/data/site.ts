@@ -9,7 +9,7 @@ export const site = {
   tagline: "Advocate, Supreme Court of Bangladesh",
   shortDescription:
     "Strategic legal counsel in constitutional, corporate, civil and criminal matters before the Supreme Court of Bangladesh.",
-  url: "https://www.example-chamber.com",
+  url: "https://rabiul-demo.rupam.uk",
 
   contact: {
     // Multiple chamber lines; the first is treated as primary for schema.

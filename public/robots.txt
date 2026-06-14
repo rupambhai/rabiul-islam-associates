@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.example-chamber.com/sitemap.xml
+Sitemap: https://rabiul-demo.rupam.uk/sitemap.xml

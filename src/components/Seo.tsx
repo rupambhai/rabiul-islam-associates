@@ -14,7 +14,7 @@ interface SeoProps {
   jsonLd?: Record<string, unknown>;
 }
 
-const DEFAULT_IMAGE = "/og-image.svg";
+const DEFAULT_IMAGE = "/og-image.png";
 const JSONLD_ID = "route-jsonld";
 
 /** Find an existing meta tag (by name or property) or create one, then set it. */

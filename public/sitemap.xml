@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.example-chamber.com/</loc>
+    <loc>https://rabiul-demo.rupam.uk/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.example-chamber.com/about</loc>
+    <loc>https://rabiul-demo.rupam.uk/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.example-chamber.com/practice-areas</loc>
+    <loc>https://rabiul-demo.rupam.uk/practice-areas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.example-chamber.com/practice-areas/company-law</loc>
+    <loc>https://rabiul-demo.rupam.uk/practice-areas/company-law</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example-chamber.com/practice-areas/writ-petitions</loc>
+    <loc>https://rabiul-demo.rupam.uk/practice-areas/writ-petitions</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example-chamber.com/practice-areas/artha-rin-matters</loc>
+    <loc>https://rabiul-demo.rupam.uk/practice-areas/artha-rin-matters</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example-chamber.com/practice-areas/civil-litigation</loc>
+    <loc>https://rabiul-demo.rupam.uk/practice-areas/civil-litigation</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example-chamber.com/practice-areas/criminal-litigation</loc>
+    <loc>https://rabiul-demo.rupam.uk/practice-areas/criminal-litigation</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.example-chamber.com/contact</loc>
+    <loc>https://rabiul-demo.rupam.uk/contact</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>

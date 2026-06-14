@@ -96,11 +96,11 @@ Dark-mode design tokens are already defined in `src/styles/index.css`.
   cards via the `Seo` component (`src/components/Seo.tsx`).
 - schema.org JSON-LD: `LegalService` (home/contact) and `Service` (practice
   area pages).
-- `public/robots.txt` and `public/sitemap.xml` (update URLs to the production
-  domain — they currently use `https://www.example-chamber.com`).
-- `public/og-image.svg` — social share image. **Replace with a 1200×630 PNG/JPG**
-  for best compatibility with Facebook/LinkedIn, and update the `og:image`
-  references in `index.html` and `Seo.tsx`.
+- `public/robots.txt` and `public/sitemap.xml` (URLs use the production domain
+  `https://rabiul-demo.rupam.uk` — update when a permanent custom domain is set).
+- `public/og-image.png` — 1200×630 social share image. Regenerate with
+  `npm i --no-save sharp && node scripts/gen-og.mjs` after editing
+  `scripts/gen-og.mjs`.
 
 Set the production domain in **one place**: `site.url` in `src/data/site.ts`
 (used for canonical and absolute OG URLs). Also update the absolute URLs in
