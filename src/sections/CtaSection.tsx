@@ -25,20 +25,11 @@ export function CtaSection() {
           options available to you.
         </p>
         <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
-          <Button
-            as="link"
-            to="/contact"
-            className="border-ivory bg-ivory text-charcoal hover:bg-ivory/90"
-          >
+          <Button as="link" to="/contact" variant="inverse">
             Schedule Consultation
             <ArrowRight className="h-4 w-4" strokeWidth={1.75} />
           </Button>
-          <Button
-            as="link"
-            to="/practice-areas"
-            variant="outline"
-            className="border-ivory/30 text-ivory hover:border-gold hover:text-gold"
-          >
+          <Button as="link" to="/practice-areas" variant="inverseOutline">
             Explore Practice Areas
           </Button>
         </div>

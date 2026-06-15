@@ -2,7 +2,7 @@ import { forwardRef, type ButtonHTMLAttributes } from "react";
 import { Link } from "react-router-dom";
 import { cn } from "@/utils/cn";
 
-type Variant = "primary" | "outline" | "ghost";
+type Variant = "primary" | "outline" | "ghost" | "inverse" | "inverseOutline";
 type Size = "sm" | "md";
 
 const base =
@@ -17,6 +17,11 @@ const variants: Record<Variant, string> = {
     "border border-line text-charcoal hover:border-gold hover:text-gold bg-transparent",
   // Text-only — tertiary.
   ghost: "text-charcoal hover:text-gold bg-transparent",
+  // Solid ivory on dark surfaces (e.g. the charcoal CTA band).
+  inverse: "bg-ivory text-charcoal hover:bg-ivory/90 border border-ivory",
+  // Hairline outline on dark surfaces.
+  inverseOutline:
+    "border border-ivory/30 text-ivory hover:border-gold hover:text-gold bg-transparent",
 };
 
 const sizes: Record<Size, string> = {
