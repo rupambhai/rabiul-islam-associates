@@ -32,8 +32,8 @@ export const practiceAreas: PracticeArea[] = [
     excerpt:
       "Advisory and representation across incorporation, governance, shareholder arrangements and corporate disputes for companies operating in Bangladesh.",
     overview: [
-      "We advise founders, boards and investors on the full corporate lifecycle — from incorporation and shareholder arrangements to restructuring, regulatory compliance and the resolution of commercial disputes.",
-      "Our approach pairs technical command of the Companies Act and allied regulation with a commercial understanding of how decisions affect a business, ensuring counsel that is both legally sound and practical.",
+      "We provide comprehensive legal advisory and strategic representation for businesses operating in Bangladesh across the full corporate lifecycle. Our services include company incorporation and regulatory setup, drafting and negotiation of shareholder agreements, corporate governance advisory, board and compliance matters, restructuring, partnership arrangements, and dispute resolution. We assist startups, private companies, foreign investors, and established enterprises in navigating Bangladesh's corporate and commercial legal framework with practical, business-focused solutions.",
+      "Our chamber also represents clients in shareholder disputes, director conflicts, breach of fiduciary duty claims, minority shareholder protection matters, and other complex corporate litigation before relevant courts, tribunals, and regulatory authorities.",
     ],
     scope: [
       "Company incorporation, conversion and winding up",
@@ -51,8 +51,8 @@ export const practiceAreas: PracticeArea[] = [
     excerpt:
       "Constitutional litigation under Article 102 — challenging unlawful state action and enforcing fundamental rights before the High Court Division.",
     overview: [
-      "We prepare and argue writ petitions under Article 102 of the Constitution, seeking remedies against actions that are without lawful authority or in violation of fundamental rights.",
-      "Each petition is built on disciplined legal research and a clear constitutional theory, whether the matter concerns administrative overreach, regulatory decisions or the protection of individual liberties.",
+      "Constitutional litigation under Article 102 of the Constitution of Bangladesh involves invoking the extraordinary writ jurisdiction of the High Court Division to challenge unlawful, arbitrary, or unconstitutional actions of public authorities, statutory bodies, and government agencies. This area of practice focuses on the protection and enforcement of fundamental rights guaranteed by the Constitution, including issues relating to due process, equality before law, judicial review, administrative legality, and abuse of executive power.",
+      "The practice encompasses writ petitions concerning ultra vires government actions, violations of natural justice, unlawful detention, procurement irregularities, administrative overreach, public interest litigation, and constitutional interpretation. Representation includes strategic advisory, drafting and conducting writ proceedings, obtaining interim reliefs and stay orders, and appearing before the High Court Division and Appellate Division in matters involving constitutional and public law disputes.",
     ],
     scope: [
       "Certiorari, mandamus and prohibition",
@@ -70,8 +70,8 @@ export const practiceAreas: PracticeArea[] = [
     excerpt:
       "Representation in Artha Rin Adalat proceedings — loan recovery suits, execution and appeals for both financial institutions and borrowers.",
     overview: [
-      "We act in proceedings before the Artha Rin Adalat, representing both lending institutions pursuing recovery and borrowers defending their position.",
-      "From the framing of the suit through execution and appeal, we focus on protecting our client's commercial interests while navigating the procedural rigour the specialised jurisdiction demands.",
+      "Representation in proceedings before the Artha Rin Adalat, including comprehensive legal support in loan recovery suits, decree execution, auction and enforcement matters, injunctions, settlement negotiations, restructuring disputes, and appellate proceedings.",
+      "Advising and representing both financial institutions and borrowers in complex banking and financial litigation arising from defaulted loans, securities enforcement, mortgage recovery, guarantor liability, and recovery certificate execution under the prevailing financial and banking laws of Bangladesh.",
     ],
     scope: [
       "Loan recovery suits for financial institutions",
@@ -89,8 +89,8 @@ export const practiceAreas: PracticeArea[] = [
     excerpt:
       "Comprehensive civil dispute resolution — property, contract, succession and declaratory matters from trial through the appellate courts.",
     overview: [
-      "We represent clients across the spectrum of civil disputes, including title and property matters, contractual claims, partition, succession and declaratory relief.",
-      "Strategy is set early and revisited deliberately, with careful attention to evidence and procedure at trial and a clear view of the prospects on appeal.",
+      "Comprehensive legal representation in civil disputes involving property rights, contractual obligations, succession and inheritance matters, recovery claims, injunctions, declaratory suits, partition disputes, and related civil proceedings.",
+      "Services include legal strategy development, drafting and filing of plaints, written statements, appeals and revisions, conducting hearings before trial courts and appellate forums, evidentiary management, interim relief applications, and full-spectrum litigation support through every stage of the judicial process, including execution and enforcement of decrees.",
     ],
     scope: [
       "Title, partition and property disputes",
@@ -108,8 +108,8 @@ export const practiceAreas: PracticeArea[] = [
     excerpt:
       "Measured criminal defence and representation — bail, trial advocacy and appeals conducted with discretion and rigour.",
     overview: [
-      "We provide considered representation in criminal matters, from bail applications and trial advocacy to appeals and revisions before the higher courts.",
-      "Every engagement is handled with discretion and a meticulous reading of the record, ensuring our client's case is presented with clarity and force.",
+      "Strategic criminal defence and courtroom representation across all stages of criminal proceedings — including anticipatory bail, regular bail, remand hearings, trial advocacy, cross-examination, criminal revisions and appellate matters.",
+      "The practice is grounded in procedural precision, confidentiality and disciplined legal analysis, with a focus on protecting clients' rights while navigating complex criminal allegations with discretion, rigour and professional integrity.",
     ],
     scope: [
       "Bail and anticipatory bail applications",
