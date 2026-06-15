@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Seo } from "@/components/Seo";
 import { Container } from "@/components/ui/Container";
 import { SectionHeader } from "@/components/ui/SectionHeader";
-import { ConsultationForm } from "@/sections/ConsultationForm";
 import { ContactDetails } from "@/sections/ContactDetails";
 import { MapEmbed } from "@/components/MapEmbed";
 import { site } from "@/data/site";
@@ -31,42 +30,28 @@ export default function Contact() {
   return (
     <>
       <Seo
-        title="Contact & Consultation"
+        title="Contact"
         path="/contact"
-        description="Request a confidential consultation with the chamber. Reach us by phone, email or WhatsApp in Dhaka, Bangladesh."
+        description="Contact the chamber by phone, email or WhatsApp in Dhaka, Bangladesh. All enquiries are handled in strict confidence."
         jsonLd={jsonLd}
       />
 
       <Container as="section" className="py-section">
         <SectionHeader
           as="h1"
-          eyebrow="Consultation"
-          title="Request a confidential consultation."
-          description="Share a brief outline of your matter and the chamber will respond promptly. All enquiries are handled with discretion."
+          eyebrow="Contact"
+          title="Reach the chamber directly."
+          description="For consultations and enquiries, contact the chamber by phone, email or WhatsApp. All communication is handled with discretion."
         />
 
-        <div className="mt-14 grid gap-12 lg:grid-cols-[1.4fr_1fr] lg:gap-20">
-          {/* Form */}
-          <motion.div
-            variants={fadeUp}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-80px" }}
-          >
-            <ConsultationForm />
+        <div className="mt-14 grid gap-12 lg:grid-cols-2 lg:gap-20">
+          <motion.div variants={fadeUp} initial="hidden" animate="visible">
+            <ContactDetails />
           </motion.div>
 
-          {/* Details + map */}
-          <motion.aside
-            variants={fadeUp}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-80px" }}
-            className="space-y-10 lg:border-l lg:border-line lg:pl-12"
-          >
-            <ContactDetails />
+          <motion.div variants={fadeUp} initial="hidden" animate="visible">
             <MapEmbed />
-          </motion.aside>
+          </motion.div>
         </div>
       </Container>
     </>

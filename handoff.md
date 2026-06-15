@@ -82,10 +82,11 @@ surface (footer, contact page, schema markup) stays in sync.
    **build logs** for failures; (c) that Git auto-deploy is enabled. Fastest
    immediate publish, bypassing the Git trigger: `wrangler login` (or set
    `CLOUDFLARE_API_TOKEN`) then `npm run build && wrangler pages deploy dist`.
-2. **Contact form is not wired to a backend.** `src/sections/ConsultationForm.tsx`
-   `handleSubmit` just waits 700ms and shows success — it sends nothing. Wire it
-   to a form service (Formspree/FormSubmit/Cloudflare Worker/email) before relying
-   on it, or it silently drops enquiries.
+2. **Contact page is static (no form), by client request.** The consultation
+   form and its components (ConsultationForm, Field, form/controls) were removed;
+   `/contact` now shows only phone, email, address, hours, WhatsApp and the map.
+   If a form is wanted later, restore from git history and wire it to a form
+   service (Formspree/FormSubmit/Cloudflare Worker/email).
 3. **Placeholder stats** in `src/data/chamber.ts` (`about.stats`): `[10]+` years
    and `[150]+` matters — confirm real figures or remove. The `[ ]` brackets are
    intentional placeholder markers.

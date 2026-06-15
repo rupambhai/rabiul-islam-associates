@@ -19,8 +19,8 @@ export const site = {
     ],
     whatsapp: "01842 856661",
     whatsappHref: "https://wa.me/8801842856661",
-    email: "rabiuly@gmail.com",
-    emailHref: "mailto:rabiuly@gmail.com",
+    email: "rabiulislam.associates@gmail.com",
+    emailHref: "mailto:rabiulislam.associates@gmail.com",
     addressLines: [
       "Chamber 604, Annex Extension Building",
       "Supreme Court Bar Bhaban",
