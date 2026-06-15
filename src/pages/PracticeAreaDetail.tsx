@@ -81,8 +81,7 @@ export default function PracticeAreaDetail() {
           <motion.div
             variants={staggerContainer}
             initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-80px" }}
+            animate="visible"
             className="space-y-5"
           >
             <motion.h2
@@ -105,8 +104,7 @@ export default function PracticeAreaDetail() {
           <motion.aside
             variants={fadeUp}
             initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-80px" }}
+            animate="visible"
             className="lg:sticky lg:top-28 lg:self-start"
           >
             <div className="border border-line bg-surface p-8">
