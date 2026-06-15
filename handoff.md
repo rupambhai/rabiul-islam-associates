@@ -71,10 +71,17 @@ surface (footer, contact page, schema markup) stays in sync.
 
 ## Open / outstanding items
 
-1. **Verify the latest Cloudflare redeploy went live.** At last handoff the live
-   site was still serving a previous deploy (`og-image.png` returned the HTML
-   fallback; removed `og-image.svg` still resolved). Check the Pages build log if
-   it didn't self-complete.
+1. **⚠️ Cloudflare auto-deploy is NOT publishing — live site is stuck on the
+   initial commit (`0d3b881`).** As of 2026-06-15 every push after the first
+   (6+ commits incl. real domain, portrait, logo, CTA fix) is unpublished:
+   `https://rabiul-demo.rupam.uk` still references the deleted `/favicon.svg`
+   and serves the HTML fallback for `favicon.png` / `og-image.png`. The repo and
+   local build are correct (`npm run build` passes). To fix, in the Pages
+   dashboard check: (a) **Production branch = `main`** (pushes may be landing as
+   *Preview* deploys while the domain is pinned to Production); (b) the latest
+   **build logs** for failures; (c) that Git auto-deploy is enabled. Fastest
+   immediate publish, bypassing the Git trigger: `wrangler login` (or set
+   `CLOUDFLARE_API_TOKEN`) then `npm run build && wrangler pages deploy dist`.
 2. **Contact form is not wired to a backend.** `src/sections/ConsultationForm.tsx`
    `handleSubmit` just waits 700ms and shows success — it sends nothing. Wire it
    to a form service (Formspree/FormSubmit/Cloudflare Worker/email) before relying
