@@ -3,6 +3,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { primaryNav } from "@/data/navigation";
 import { practiceAreas } from "@/data/practiceAreas";
 import { site } from "@/data/site";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -13,8 +14,22 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           {/* Identity */}
           <div className="max-w-xs">
-            <Link to="/" className="font-display text-xl font-medium text-ink">
-              {site.name}
+            <Link
+              to="/"
+              className="inline-flex items-center gap-3"
+              aria-label={`${site.name} — home`}
+            >
+              <img
+                src={logo}
+                alt=""
+                aria-hidden="true"
+                width={512}
+                height={512}
+                className="h-12 w-12 shrink-0"
+              />
+              <span className="font-display text-xl font-medium leading-tight text-ink">
+                {site.name}
+              </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-muted">
               {site.shortDescription}

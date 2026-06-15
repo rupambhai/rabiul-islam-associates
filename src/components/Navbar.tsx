@@ -7,6 +7,7 @@ import { site } from "@/data/site";
 import { useScrolledPast } from "@/hooks/useScrollPosition";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/utils/cn";
+import logo from "@/assets/logo.png";
 
 export function Navbar() {
   const scrolled = useScrolledPast(24);
@@ -44,14 +45,24 @@ export function Navbar() {
       >
         <Link
           to="/"
-          className="group flex flex-col leading-none"
+          className="group flex items-center gap-3 leading-none"
           aria-label={`${site.name} — home`}
         >
-          <span className="font-display text-lg font-medium tracking-tight text-ink md:text-xl">
-            {site.name}
-          </span>
-          <span className="mt-0.5 text-[10px] uppercase tracking-widest text-muted">
-            {site.tagline}
+          <img
+            src={logo}
+            alt=""
+            aria-hidden="true"
+            width={512}
+            height={512}
+            className="h-10 w-10 shrink-0 md:h-11 md:w-11"
+          />
+          <span className="flex flex-col">
+            <span className="font-display text-lg font-medium tracking-tight text-ink md:text-xl">
+              {site.name}
+            </span>
+            <span className="mt-0.5 text-[10px] uppercase tracking-widest text-muted">
+              {site.tagline}
+            </span>
           </span>
         </Link>
 
