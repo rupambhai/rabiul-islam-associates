@@ -17,11 +17,11 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
   <rect width="${W}" height="${H}" fill="#FBFAF6"/>
   <rect x="0" y="0" width="12" height="${H}" fill="#8C6E40"/>
   <text x="68" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="3" fill="#8C6E40">ADVOCATE · SUPREME COURT OF BANGLADESH</text>
-  <text x="64" y="312" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="600" fill="#1A1A1C">Rabiul Islam</text>
-  <text x="64" y="392" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="600" fill="#1A1A1C">&amp; Associates</text>
-  <line x1="68" y1="442" x2="178" y2="442" stroke="#8C6E40" stroke-width="2"/>
-  <text x="68" y="494" font-family="Helvetica, Arial, sans-serif" font-size="27" fill="#6E6C66">Strategic legal counsel for complex matters.</text>
-  <text x="68" y="566" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-style="italic" fill="#1A1A1C">Md. Rabiul Islam</text>
+  <text x="64" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="600" fill="#1A1A1C">MD. Rabiul Islam</text>
+  <text x="64" y="380" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="600" fill="#1A1A1C">&amp; Associates</text>
+  <line x1="68" y1="430" x2="178" y2="430" stroke="#8C6E40" stroke-width="2"/>
+  <text x="68" y="484" font-family="Helvetica, Arial, sans-serif" font-size="27" fill="#6E6C66">Strategic legal counsel for complex matters.</text>
+  <text x="68" y="556" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-style="italic" fill="#1A1A1C">MD. Rabiul Islam</text>
   <line x1="${W - PHOTO_W - 1}" y1="0" x2="${W - PHOTO_W - 1}" y2="${H}" stroke="#E2DFD6" stroke-width="2"/>
 </svg>`;
 

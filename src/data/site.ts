@@ -4,8 +4,8 @@
  * Update placeholders here once and every surface stays in sync.
  */
 export const site = {
-  name: "Rabiul Islam & Associates",
-  advocate: "Md. Rabiul Islam",
+  name: "MD. Rabiul Islam & Associates",
+  advocate: "MD. Rabiul Islam",
   tagline: "Advocate, Supreme Court of Bangladesh",
   shortDescription:
     "Strategic legal counsel in constitutional, corporate, civil and criminal matters before the Supreme Court of Bangladesh.",

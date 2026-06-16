@@ -1,8 +1,8 @@
-# Handoff — Rabiul Islam & Associates chamber website
+# Handoff — MD. Rabiul Islam & Associates chamber website
 
 _Last updated: 2026-06-15_
 
-Premium marketing site for **Md. Rabiul Islam**, Advocate of the Supreme Court of
+Premium marketing site for **MD. Rabiul Islam**, Advocate of the Supreme Court of
 Bangladesh. Single-page React app (multi-route SPA), no backend.
 
 ## Stack

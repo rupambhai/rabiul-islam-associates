@@ -1,4 +1,4 @@
-# Rabiul Islam & Associates — Supreme Court Lawyer's Chamber
+# MD. Rabiul Islam & Associates — Supreme Court Lawyer's Chamber
 
 A premium, minimalist marketing website for a newly established Supreme Court
 lawyer's chamber in Bangladesh. Built as a fast, accessible, SEO-ready single
