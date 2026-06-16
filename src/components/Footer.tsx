@@ -111,22 +111,10 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-14 flex flex-col gap-4 border-t border-line pt-8 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-14 border-t border-line pt-8">
           <p className="text-xs text-muted">
             © {year} {site.name}. All rights reserved.
           </p>
-          <ul className="flex items-center gap-6">
-            {site.social.map((channel) => (
-              <li key={channel.label}>
-                <a
-                  href={channel.href}
-                  className="text-xs uppercase tracking-widest text-muted transition-colors hover:text-gold"
-                >
-                  {channel.label}
-                </a>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </footer>

@@ -31,10 +31,4 @@ export const site = {
       "https://www.google.com/maps?q=Bangladesh+Supreme+Court+Dhaka&output=embed",
     officeHours: "Saturday – Thursday, 9:00 AM – 9:00 PM",
   },
-
-  social: [
-    { label: "LinkedIn", href: "#" },
-    { label: "Facebook", href: "#" },
-    { label: "X", href: "#" },
-  ],
 } as const;
